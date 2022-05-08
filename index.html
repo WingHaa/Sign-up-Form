@@ -19,14 +19,20 @@
       <div class="club-name">H's fan club</div>
     </div>
     <div class="content">
-      <div class="intro"></div>
+      <div class="intro">
+        <p>This is not a form to join H's fan club! Everyone is H's fan the moment they are born. This is so you can
+          sign up to compete and win a chance at taking a picture with our favorite idol.</p>
+        <p>Sign up <em>now</em> to get started.</p>
+        <p>You <em>know</em> you want to.</p>
+      </div>
       <div class="register-form">
-        <fieldset>
-          <legend>Let's do this</legend>
-          <form>
+        <form>
+          <fieldset>
+            <legend>Let's do this</legend>
             <div class="entry">
               <label for="first-name">FIRST NAME</label>
               <input type="text" id="first-name"></input>
+              <span></span>
             </div>
 
             <div class="entry">
@@ -46,19 +52,21 @@
 
             <div class="entry">
               <label for="password">PASSWORD</label>
-              <input type="password" id="password"></input>
+              <input type="password" id="password" required></input>
+              <span></span>
             </div>
 
             <div class="entry">
               <label for="confirm-password">CONFIRM PASSWORD</label>
-              <input type="password" id="confirm-password"></input>
+              <input type="password" id="confirm-password" required></input>
+              <span></span>
             </div>
-          </form>
-        </fieldset>
-      </div>
-      <div class="register">
-        <button class="register-button">Create Account</button>
-        <p class="login">Already have an account? <a class="login">Log in</a></p>
+          </fieldset>
+          <div class="register">
+            <button class="register-button" type="submit">Create Account</button>
+            <p class="login">Already have an account? <a href="#" class="login">Log in</a></p>
+          </div>
+        </form>
       </div>
     </div>
   </div>
